@@ -1,24 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './Navbar';
+import Tabs from './Tabs';
+import Card from './Card';
 
 function App() {
+  const content = "Do you work on whatsApp? Yes, we do offer our services on WhatsApp!";
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app-container">
+    <Navbar />
+    <Tabs />
+    <div className="cards-section">
+      <Card content={content} />
+      <Card content={content} />
+      <Card content={content} />
+      <Card content={content} />
+      <Card content={content} />
+      <Card content={content} />
+      <Card content={content} />
     </div>
+  </div>
   );
 }
 

@@ -1,0 +1,50 @@
+/* Tab Styles */
+.tabs-container {
+    margin-top: 20px;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 10px; /* 10px gap between tabs */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav-link1 {
+    display: flex;
+    justify-content: center; /* Horizontally center content */
+    align-items: center;     /* Vertically center content */
+    padding: 0.5rem 1rem;
+    height: 25px;
+    text-align: center;
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;    /* Remove the underline from links */
+  }
+  
+  .tab-1 {
+    background-color: #F7E7F6;
+    color: black;
+    font-family: 'Poppins';
+    font-size: 12px;
+  }
+  
+  .tab-2 {
+    background-color: #FFEBA4;
+    font-family: 'Poppins';
+    color: black;
+    font-size: 12px;
+  }
+  
+  .tab-3 {
+    background-color:#A7F6CC;
+    font-family: 'Poppins';
+    color: black;
+    font-size: 12px;
+  }
+  
+  /* Set dynamic width based on content */
+  .nav-item {
+    width: auto;
+  }
+  
